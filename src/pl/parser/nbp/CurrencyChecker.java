@@ -8,8 +8,9 @@ public class CurrencyChecker {
 		dateStart = args[1];
 		dateEnd = args[2];
 	}
-
+	
 	public void checkCurrency() {
+		
 		System.out.println("checker: " + currency + " " + dateStart + " " + dateEnd);
 		
 		Printer printer = new Printer(currency, dateStart, dateEnd);
@@ -17,5 +18,4 @@ public class CurrencyChecker {
 		
 	}
 
-	
 }
